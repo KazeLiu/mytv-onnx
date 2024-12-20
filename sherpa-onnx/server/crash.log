@@ -1,0 +1,42 @@
+PID 10396 received SIGSEGV for address: 0xd4a52720
+SymInit: Symbol-SearchPath: '.;D:\code\mytv-window-onnx\sherpa-onnx\server;C:\Program Files\nodejs;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Shimakaze'
+OS-Version: 10.0.22631 () 0x100-0x1
+D:\code\mytv-window-onnx\node_modules\segfault-handler\src\StackWalker.cpp (941): StackWalker::ShowCallstack
+D:\code\mytv-window-onnx\node_modules\segfault-handler\src\segfault-handler.cpp (242): segfault_handler
+00007FFF4E5A80BA (ntdll): (filename not available): RtlGetLengthWithoutLastFullDosOrNtPathElement
+00007FFF4E54E662 (ntdll): (filename not available): RtlFindCharInUnicodeString
+00007FFF4E5D443E (ntdll): (filename not available): KiUserExceptionDispatcher
+00007FFED4A52720 (sherpa-onnx-c-api): (filename not available): espeak_SetUriCallback
+00007FFED48A0806 (sherpa-onnx-c-api): (filename not available): espeak_IsPlaying
+00007FFED48B96E2 (sherpa-onnx-c-api): (filename not available): espeak_IsPlaying
+00007FFED48B920D (sherpa-onnx-c-api): (filename not available): espeak_IsPlaying
+00007FFF3BB615D3 (sherpa-onnx): (filename not available): node_api_module_get_api_version_v1
+00007FFF3BB3AD7D (sherpa-onnx): (filename not available): (function-name not available)
+00007FFF3BB3DEE8 (sherpa-onnx): (filename not available): (function-name not available)
+00007FF68BFCCEFF (node): (filename not available): v8::internal::compiler::Typer::operation_typer
+00007FF68C9E8FED (node): (filename not available): v8::internal::Builtins::code
+00007FF68C9E8BF9 (node): (filename not available): v8::internal::Builtins::code
+00007FF68C9E8EBC (node): (filename not available): v8::internal::Builtins::code
+00007FF68C9E8D20 (node): (filename not available): v8::internal::Builtins::code
+00007FF68CACDA61 (node): (filename not available): v8::internal::SetupIsolateDelegate::SetupHeap
+PID 23208 received SIGSEGV for address: 0xd4a52720
+SymInit: Symbol-SearchPath: '.;D:\code\mytv-window-onnx\sherpa-onnx\server;C:\Program Files\nodejs;C:\WINDOWS;C:\WINDOWS\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'Shimakaze'
+OS-Version: 10.0.22631 () 0x100-0x1
+D:\code\mytv-window-onnx\node_modules\segfault-handler\src\StackWalker.cpp (941): StackWalker::ShowCallstack
+D:\code\mytv-window-onnx\node_modules\segfault-handler\src\segfault-handler.cpp (242): segfault_handler
+00007FFF4E5A80BA (ntdll): (filename not available): RtlGetLengthWithoutLastFullDosOrNtPathElement
+00007FFF4E54E662 (ntdll): (filename not available): RtlFindCharInUnicodeString
+00007FFF4E5D443E (ntdll): (filename not available): KiUserExceptionDispatcher
+00007FFED4A52720 (sherpa-onnx-c-api): (filename not available): espeak_SetUriCallback
+00007FFED48A0806 (sherpa-onnx-c-api): (filename not available): espeak_IsPlaying
+00007FFED48B96E2 (sherpa-onnx-c-api): (filename not available): espeak_IsPlaying
+00007FFED48B920D (sherpa-onnx-c-api): (filename not available): espeak_IsPlaying
+00007FFF3BB615D3 (sherpa-onnx): (filename not available): node_api_module_get_api_version_v1
+00007FFF3BB3AD7D (sherpa-onnx): (filename not available): (function-name not available)
+00007FFF3BB3DEE8 (sherpa-onnx): (filename not available): (function-name not available)
+00007FF68BFCCEFF (node): (filename not available): v8::internal::compiler::Typer::operation_typer
+00007FF68C9E8FED (node): (filename not available): v8::internal::Builtins::code
+00007FF68C9E8BF9 (node): (filename not available): v8::internal::Builtins::code
+00007FF68C9E8EBC (node): (filename not available): v8::internal::Builtins::code
+00007FF68C9E8D20 (node): (filename not available): v8::internal::Builtins::code
+00007FF68CACDA61 (node): (filename not available): v8::internal::SetupIsolateDelegate::SetupHeap
