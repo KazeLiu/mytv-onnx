@@ -1,0 +1,19 @@
+{
+  "name": "mytv-window-onnx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "naudiodon2": "^2.4.0",
+    "node-addon-api": "^8.3.0",
+    "node-record-lpcm16": "^1.0.1",
+    "sherpa-onnx-node": "^1.10.35",
+    "ws": "^8.18.0"
+  }
+}
